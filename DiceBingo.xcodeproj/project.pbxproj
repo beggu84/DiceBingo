@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB2D46F21492A01004D156A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2D46E21492A01004D156A /* AppDelegate.m */; };
+		DDB2D47221492A01004D156A /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2D47121492A01004D156A /* Renderer.m */; };
+		DDB2D47521492A01004D156A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2D47421492A01004D156A /* GameViewController.m */; };
+		DDB2D47721492A01004D156A /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = DDB2D47621492A01004D156A /* Shaders.metal */; };
+		DDB2D47B21492A01004D156A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB2D47921492A01004D156A /* Main.storyboard */; };
+		DDB2D47D21492A02004D156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB2D47C21492A02004D156A /* Assets.xcassets */; };
+		DDB2D48021492A02004D156A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB2D47E21492A02004D156A /* LaunchScreen.storyboard */; };
+		DDB2D48321492A02004D156A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2D48221492A02004D156A /* main.m */; };
+		DDBB67CD216E1A62002BA715 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBB67C9216E1A62002BA715 /* Scene.m */; };
+		DDBB67CE216E1A62002BA715 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBB67CA216E1A62002BA715 /* Node.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB2D46A21492A01004D156A /* DiceBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceBingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB2D46D21492A01004D156A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDB2D46E21492A01004D156A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDB2D47021492A01004D156A /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		DDB2D47121492A01004D156A /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		DDB2D47321492A01004D156A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DDB2D47421492A01004D156A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DDB2D47621492A01004D156A /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		DDB2D47821492A01004D156A /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		DDB2D47A21492A01004D156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB2D47C21492A02004D156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB2D47F21492A02004D156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB2D48121492A02004D156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB2D48221492A02004D156A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDBB67C9216E1A62002BA715 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		DDBB67CA216E1A62002BA715 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		DDBB67CB216E1A62002BA715 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		DDBB67CC216E1A62002BA715 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		DDDD24DD2178B74000210BD9 /* Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		DDE8B924216C7C5B00BCA603 /* Gerolt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Gerolt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB2D46721492A01004D156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB2D46121492A01004D156A = {
+			isa = PBXGroup;
+			children = (
+				DDB2D46C21492A01004D156A /* DiceBingo */,
+				DDB2D46B21492A01004D156A /* Products */,
+				DDE8B8F3216C77C700BCA603 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB2D46B21492A01004D156A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2D46A21492A01004D156A /* DiceBingo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB2D46C21492A01004D156A /* DiceBingo */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB67CB216E1A62002BA715 /* Node.h */,
+				DDBB67CA216E1A62002BA715 /* Node.m */,
+				DDBB67CC216E1A62002BA715 /* Scene.h */,
+				DDBB67C9216E1A62002BA715 /* Scene.m */,
+				DDB2D46D21492A01004D156A /* AppDelegate.h */,
+				DDB2D46E21492A01004D156A /* AppDelegate.m */,
+				DDB2D47321492A01004D156A /* GameViewController.h */,
+				DDB2D47421492A01004D156A /* GameViewController.m */,
+				DDB2D47021492A01004D156A /* Renderer.h */,
+				DDB2D47121492A01004D156A /* Renderer.m */,
+				DDB2D47621492A01004D156A /* Shaders.metal */,
+				DDB2D47821492A01004D156A /* ShaderTypes.h */,
+				DDB2D47921492A01004D156A /* Main.storyboard */,
+				DDB2D47C21492A02004D156A /* Assets.xcassets */,
+				DDB2D47E21492A02004D156A /* LaunchScreen.storyboard */,
+				DDB2D48121492A02004D156A /* Info.plist */,
+				DDB2D48221492A02004D156A /* main.m */,
+				DDDD24DD2178B74000210BD9 /* Math.h */,
+			);
+			path = DiceBingo;
+			sourceTree = "<group>";
+		};
+		DDE8B8F3216C77C700BCA603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8B924216C7C5B00BCA603 /* Gerolt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB2D46921492A01004D156A /* DiceBingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB2D48621492A02004D156A /* Build configuration list for PBXNativeTarget "DiceBingo" */;
+			buildPhases = (
+				DDB2D46621492A01004D156A /* Sources */,
+				DDB2D46721492A01004D156A /* Frameworks */,
+				DDB2D46821492A01004D156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceBingo;
+			productName = DiceBingo;
+			productReference = DDB2D46A21492A01004D156A /* DiceBingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB2D46221492A01004D156A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wooki;
+				TargetAttributes = {
+					DDB2D46921492A01004D156A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB2D46521492A01004D156A /* Build configuration list for PBXProject "DiceBingo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB2D46121492A01004D156A;
+			productRefGroup = DDB2D46B21492A01004D156A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB2D46921492A01004D156A /* DiceBingo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB2D46821492A01004D156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB2D48021492A02004D156A /* LaunchScreen.storyboard in Resources */,
+				DDB2D47D21492A02004D156A /* Assets.xcassets in Resources */,
+				DDB2D47B21492A01004D156A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB2D46621492A01004D156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBB67CE216E1A62002BA715 /* Node.m in Sources */,
+				DDB2D48321492A02004D156A /* main.m in Sources */,
+				DDB2D47721492A01004D156A /* Shaders.metal in Sources */,
+				DDB2D47221492A01004D156A /* Renderer.m in Sources */,
+				DDB2D47521492A01004D156A /* GameViewController.m in Sources */,
+				DDBB67CD216E1A62002BA715 /* Scene.m in Sources */,
+				DDB2D46F21492A01004D156A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB2D47921492A01004D156A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB2D47A21492A01004D156A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB2D47E21492A02004D156A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB2D47F21492A02004D156A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB2D48421492A02004D156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDB2D48521492A02004D156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB2D48721492A02004D156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RL6T7V4HF;
+				INFOPLIST_FILE = DiceBingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooki.DiceBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB2D48821492A02004D156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RL6T7V4HF;
+				INFOPLIST_FILE = DiceBingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooki.DiceBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB2D46521492A01004D156A /* Build configuration list for PBXProject "DiceBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB2D48421492A02004D156A /* Debug */,
+				DDB2D48521492A02004D156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB2D48621492A02004D156A /* Build configuration list for PBXNativeTarget "DiceBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB2D48721492A02004D156A /* Debug */,
+				DDB2D48821492A02004D156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB2D46221492A01004D156A /* Project object */;
+}
